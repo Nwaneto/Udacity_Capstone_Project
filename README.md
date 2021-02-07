@@ -103,16 +103,23 @@ Instructions:
 
 *  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
 
-## Additiona Screenshots
+## Additional Screenshots
 
 * AutomML Endpoint showing Health Status
 ![Run_details_hyperdrive](AutoML-ModelEndpoint-Active.PNG "AutomML Endpoint showing Health Status")
 
-* AutoML Model Summary.PNG
+* AutoML Model Summary
 ![Run_details_hyperdrive_best](AutoML-ModelSummar.PNG "AutoML-ModelSummary")
 
-* The Best model selection and registration 
-![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG "Run_details_hyperdrive_best")
+* AutoML Run metrics 
+![Run_details_hyperdrive_best](AutoML-Run-metrics.PNG "AutoML-Run-metrics")
+
+* AutoML-SwaggerUri-and-RestEndpoint
+![Run_details_hyperdrive](AutoML-SwaggerUri-and-RestEndpoint.PNG "AutoML-SwaggerUri-and-RestEndpoint")
+
+* HyperDrive-EarlyTermination-policy
+![Run_details_hyperdrive_best](HyperDrive-EarlyTermination-policy.PNG "HyperDrive-EarlyTermination-policy")
+
 
 
 ## Video Recording: https://youtu.be/3ieNuLH8SHE
