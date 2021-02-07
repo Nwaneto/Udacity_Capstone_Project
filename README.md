@@ -53,10 +53,10 @@ This trial can be improved later on by adding more information in it, giving mor
 *  screenshots of the RunDetails widget
 ![Automl_run_details](AutoML-RunDetails.PNG "Automl_run_details")
 
-*  screenshot of the best model trained
+*  screenshot of the best model run-Id
 ![Automl_best_model](AutoML-Bestmodel-RunId.PNG "Automl_best_model")
 
-* The Best model from Azure Studio
+* screenshot of the Best model from Azure Studio
 ![Automl_best_model](AutoML-Bestmodel.PNG "Automl_best_model")
 
 ## Hyperparameter Tuning
@@ -80,14 +80,14 @@ We run this analysis on different occasions and do some tunning to the Hyperdriv
 This analysis can be improved later on by adding more information in it, utilizing an alternate calculation, and furthermore adding more emphasis in the hyperdrive setup which can convey a superior outcome.
 
 
-* `RunDetails` execution 
+* screenshots of the Hyper Drive RunDetails widget
 ![Run_details_hyperdrive](HyperD-RunDetails.PNG "Run_details_hyperdrive")
 
-* The Best model selection and registration 
-![Run_details_hyperdrive_best](HyperD-TunedParameters.PNG "Run_details_hyperdrive_best")
-
-* The Best model selection and registration 
+* screenshot of the RunId of best model trained - Hyper Drive
 ![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG "Run_details_hyperdrive_best")
+
+* screenshot of the parameters of best model trained
+![Run_details_hyperdrive_best](HyperD-TunedParameters.PNG "Run_details_hyperdrive_best")
 
 
 ## Model Deployment
