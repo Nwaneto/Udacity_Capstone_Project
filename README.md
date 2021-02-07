@@ -97,8 +97,6 @@ Instructions:
 
 *  Save and register the best model for the sending, download the conda, set the environment, download the scoring, and set the surmising config and the Aci Web administration config
 
-* conda file downloaded
-![conda file downloaded](conda_env.yml "conda file downloaded")
 
 *  Deploy the model
 
