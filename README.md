@@ -34,9 +34,14 @@ The primary objective of this errand is to separate solid individuals from those
 # An overview of the method used to get the data into Azure ML Studio workspace.
 The data set can be accessed using the TabularDatasetFactory class having the from_delimited_files method which takes the file path as an argument and imports the file appropriately. Sample code snippet can be found below:
 
+
+```
 "path_url = '<url to file>'"
 "ds = TabularDatasetFactory.from_delimited_files(path = path_url)
 "ds.to_pandas_dataframe().head()"
+```
+
+
 
 
 ## Automated ML
