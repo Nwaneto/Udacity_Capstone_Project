@@ -34,7 +34,7 @@ The primary objective of this errand is to separate solid individuals from those
 # An overview of the method used to get the data into Azure ML Studio workspace.
 The data set can be accessed using the TabularDatasetFactory class having the from_delimited_files method which takes the file path as an argument and imports the file appropriately. Sample code snippet can be found below:
 
-"path_url = 'https://gist.githubusercontent.com/Nwaneto/0d1477bd10c92f8b16ab19306d21a17f/raw/0af3078c0d174e26039ab31525487ceaceda77b0/parkinson-classification-data.csv'\n",
+"path_url = '<url to file>'"
 "ds = TabularDatasetFactory.from_delimited_files(path = path_url)
 "ds.to_pandas_dataframe().head()"
 
@@ -68,6 +68,9 @@ This trial can be improved later on by adding more information in it, giving mor
 *  screenshots of the RunDetails widget
 ![Automl_run_details](AutoML-RunDetails.PNG "Automl_run_details")
 
+* An overview of the two models with the best parameters
+![Run_details_hyperdrive](Two-models-with-best-paramaters.PNG "Run_details_hyperdrive")
+
 *  screenshot of the best model run-Id
 ![Automl_best_model](AutoML-Bestmodel-RunId.PNG "Automl_best_model")
 
@@ -97,10 +100,6 @@ This analysis can be improved later on by adding more information in it, utilizi
 
 * screenshots of the Hyper Drive RunDetails widget
 ![Run_details_hyperdrive](HyperD-RunDetails.PNG "Run_details_hyperdrive")
-
-* An overview of the two models with the best parameters
-![Run_details_hyperdrive](Two-models-with-best-paramaters.PNG "Run_details_hyperdrive")
-
 
 * screenshot of the RunId of best model trained - Hyper Drive
 ![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG "Run_details_hyperdrive_best")
