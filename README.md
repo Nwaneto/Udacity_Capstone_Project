@@ -119,12 +119,13 @@ After the execution of the two investigations, we select The best model which wa
 Instructions:
 
 *  Save and register the best model for the sending, download the conda, set the environment, download the scoring, and set the surmising config and the Aci Web administration config
+![Step1_deploy](step1_deploy.PNG "Step1_deploy")
 
-
-*  Deploy the model
-
+*  Deploy the model the swagger URI
+![Step2_deploy](step2_deploy.PNG "Step2_deploy")
 
 *  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
+![Step3_deploy](step3_deploy.PNG "Step3_deploy")
 
 ## Additional Screenshots
 
