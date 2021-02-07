@@ -1,0 +1,56 @@
+{
+    "schema_name": "pipeline_graph",
+    "schema_version": "1.0.0",
+    "data": {
+        "module_nodes": {
+            "ab8f3ee3": {
+                "node_id": "ab8f3ee3",
+                "name": "prefittedsoftvotingclassifier",
+                "status": "model"
+            },
+            "a312dce4": {
+                "node_id": "a312dce4",
+                "name": "Numeric",
+                "status": "dataType"
+            },
+            "a900b123": {
+                "node_id": "a900b123",
+                "name": "MeanImputer",
+                "status": "operation"
+            }
+        },
+        "edges": [
+            {
+                "source_node_id": "76f9de9f",
+                "source_node_name": "data_source",
+                "source_name": "",
+                "target_name": "23 col",
+                "dst_node_id": "a312dce4",
+                "dst_node_name": "Numeric"
+            },
+            {
+                "source_node_id": "a312dce4",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "a900b123",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "a900b123",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "1 col",
+                "dst_node_id": "ab8f3ee3",
+                "dst_node_name": ""
+            }
+        ],
+        "child_runs": [],
+        "datasource_nodes": {
+            "76f9de9f": {
+                "node_id": "76f9de9f",
+                "name": "data_source - 23 col"
+            }
+        }
+    }
+}
