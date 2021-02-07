@@ -122,7 +122,9 @@ Instructions:
 ![Step1_deploy](step1_deploy.png "Step1_deploy")
 
 *  Deploy the model the swagger URI
-![Step2_deploy](step2_deploy.png "Step2_deploy")
+![Step2_deploy](mode-deploy.PNG "Step2_deploy")
+![Step2_deploy](model-deploy2.PNG "Step2_deploy")
+![Step2_deploy](model-deploy3.PNG "Step2_deploy")
 
 *  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
 ![Step3_deploy](step3_deploy.png "Step3_deploy")
