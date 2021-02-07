@@ -51,13 +51,13 @@ For this situation, the best model was created utilizing MaxAbsScaler LightGBM A
 This trial can be improved later on by adding more information in it, giving more opportunity to the run, and furthermore attempting profound realizing which can convey a superior outcome.
 
 *  `RunDetails` execution 
-![Automl_run_details](Run-details-widget.PNG "Automl_run_details")
+![Automl_run_details](AutoML-Bestmodel-RunId.PNG "Automl_run_details")
 
 * The Best model selection and registration 
 ![Automl_best_model](Best-model-with-runid.PNG "Automl_best_model")
 
 * The Best model from Azure Studio
-![Automl_best_model](Best-model.PNG "Automl_best_model")
+![Automl_best_model](AutoML-Bestmodel.PNG "Automl_best_model")
 
 ## Hyperparameter Tuning
 
@@ -81,13 +81,13 @@ This analysis can be improved later on by adding more information in it, utilizi
 
 
 * `RunDetails` execution 
-![Run_details_hyperdrive](HyperDrive-run-details.PNG "Run_details_hyperdrive")
+![Run_details_hyperdrive](HyperD-RunDetails.PNG "Run_details_hyperdrive")
 
 * The Best model selection and registration 
-![Run_details_hyperdrive_best](HD-best-model.PNG "Run_details_hyperdrive_best")
+![Run_details_hyperdrive_best](HyperD-TunedParameters.PNG "Run_details_hyperdrive_best")
 
 * The Best model selection and registration 
-![Run_details_hyperdrive_best](HyperDrive-best-model.PNG "Run_details_hyperdrive_best")
+![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG.PNG "Run_details_hyperdrive_best")
 
 
 ## Model Deployment
