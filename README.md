@@ -31,7 +31,7 @@ Dataset used in the project: https://archive.ics.uci.edu/ml/datasets/parkinsons
 The primary objective of this errand is to separate solid individuals from those with Parkinson's disease(PD), as indicated by the "status" section which is set to 0 for sound and 1 for PD to do this we utilized distinctive voice measure segments remembered for the dataset.
 
 ### Access
-# An overview of the method used to get the data into Azure ML Studio workspace.
+## An overview of the method used to get the data into Azure ML Studio workspace.
 The data set can be accessed using the TabularDatasetFactory class having the from_delimited_files method which takes the file path as an argument and imports the file appropriately. Sample code snippet can be found below:
 
 
@@ -82,11 +82,9 @@ This trial can be improved later on by adding more information in it, giving mor
 * screenshot of the Best model from Azure Studio
 ![Automl_best_model](AutoML-Bestmodel.PNG "Automl_best_model")
 
-*Suggestions for possible improvement
--Increase experiment timeout duration. This would allow for more model experimentation, but at expense of cost.
--Try a different primary metric. Sometimes accuracy alone doesn't represent true picture of the model's performance. Recall or precision are more specific metrics in related classification problems.
--Tweak some other AutoML confirguration parameters including number of cross validation to reduce model bias.
-Clean data function: Values were imputed to treat missing entries. Possibly, doing away with such rows may produce a better model.
+## Few Suggestions for possible improvement
+* Increase experiment timeout duration. With the duration increased, there is room for more model experimentation, but this will most likely come at the expense of cost.
+* Try a different primary metric. Sometimes accuracy alone doesn't represent true picture of the model's performance. Recall or precision are more specific metrics in related classification problems.
 
 ## Hyperparameter Tuning
 
