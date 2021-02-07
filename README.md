@@ -98,6 +98,10 @@ This analysis can be improved later on by adding more information in it, utilizi
 * screenshots of the Hyper Drive RunDetails widget
 ![Run_details_hyperdrive](HyperD-RunDetails.PNG "Run_details_hyperdrive")
 
+* An overview of the two models with the best parameters
+![Run_details_hyperdrive](Two-models-with-best-paramaters.PNG "Run_details_hyperdrive")
+
+
 * screenshot of the RunId of best model trained - Hyper Drive
 ![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG "Run_details_hyperdrive_best")
 
