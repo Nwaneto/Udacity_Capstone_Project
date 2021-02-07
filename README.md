@@ -54,7 +54,7 @@ This trial can be improved later on by adding more information in it, giving mor
 ![Automl_run_details](AutoML-Bestmodel-RunId.PNG "Automl_run_details")
 
 * The Best model selection and registration 
-![Automl_best_model](Best-model-with-runid.PNG "Automl_best_model")
+![Automl_best_model](AutoML-Bestmodel-RunId.PNG "Automl_best_model")
 
 * The Best model from Azure Studio
 ![Automl_best_model](AutoML-Bestmodel.PNG "Automl_best_model")
