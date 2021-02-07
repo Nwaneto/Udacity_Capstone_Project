@@ -82,6 +82,12 @@ This trial can be improved later on by adding more information in it, giving mor
 * screenshot of the Best model from Azure Studio
 ![Automl_best_model](AutoML-Bestmodel.PNG "Automl_best_model")
 
+*Suggestions for possible improvement
+-Increase experiment timeout duration. This would allow for more model experimentation, but at expense of cost.
+-Try a different primary metric. Sometimes accuracy alone doesn't represent true picture of the model's performance. Recall or precision are more specific metrics in related classification problems.
+-Tweak some other AutoML confirguration parameters including number of cross validation to reduce model bias.
+Clean data function: Values were imputed to treat missing entries. Possibly, doing away with such rows may produce a better model.
+
 ## Hyperparameter Tuning
 
 The calculation we decide for this order issue is LogisticRegression since we are attempting to anticipate if a patient will have Parkinson's illness dependent on a scope of biomedical voice estimations (yes or no) which implies two results. 
@@ -126,7 +132,7 @@ Instructions:
 ![Step2_deploy](model-deploy2.PNG "Step2_deploy")
 ![Step2_deploy](model-deploy3.PNG "Step2_deploy")
 
-*  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
+*  A sample data to query endpoint
 ![Step3_deploy](step3_deploy.png "Step3_deploy")
 
 ## Additional Screenshots
