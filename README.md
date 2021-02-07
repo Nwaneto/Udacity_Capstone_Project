@@ -87,7 +87,7 @@ This analysis can be improved later on by adding more information in it, utilizi
 ![Run_details_hyperdrive_best](HyperD-TunedParameters.PNG "Run_details_hyperdrive_best")
 
 * The Best model selection and registration 
-![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG.PNG "Run_details_hyperdrive_best")
+![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG "Run_details_hyperdrive_best")
 
 
 ## Model Deployment
@@ -96,13 +96,23 @@ After the execution of the two investigations, we select The best model which wa
 Instructions:
 
 *  Save and register the best model for the sending, download the conda, set the environment, download the scoring, and set the surmising config and the Aci Web administration config
-![Step1_deploy](save-best-model-for-sending.PNG "Step1_deploy")
 
-*  Deploy the model the swagger URI
-![Step2_deploy](swagger-uri.PNG "Step2_deploy")
+
+*  Deploy the model
+
 
 *  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
-![Step3_deploy](run-result1.PNG "Step3_deploy")
+
+## Additiona Screenshots
+
+* AutomML Endpoint showing Health Status
+![Run_details_hyperdrive](AutoML-ModelEndpoint-Active.PNG "AutomML Endpoint showing Health Status")
+
+* AutoML Model Summary.PNG
+![Run_details_hyperdrive_best](AutoML-ModelSummar.PNG "AutoML-ModelSummary")
+
+* The Best model selection and registration 
+![Run_details_hyperdrive_best](HyperDrive-Bestmodel.PNG "Run_details_hyperdrive_best")
 
 
 ## Video Recording: https://youtu.be/3ieNuLH8SHE
