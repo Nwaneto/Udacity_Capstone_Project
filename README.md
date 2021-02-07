@@ -50,10 +50,10 @@ For this situation, the best model was created utilizing VotingEnsemble with acc
 
 This trial can be improved later on by adding more information in it, giving more opportunity to the run, and furthermore attempting profound realizing which can convey a superior outcome.
 
-*  `RunDetails` execution 
-![Automl_run_details](AutoML-Bestmodel-RunId.PNG "Automl_run_details")
+*  screenshots of the RunDetails widget
+![Automl_run_details](AutoML-RunDetails.PNG "Automl_run_details")
 
-* The Best model selection and registration 
+*  screenshot of the best model trained
 ![Automl_best_model](AutoML-Bestmodel-RunId.PNG "Automl_best_model")
 
 * The Best model from Azure Studio
