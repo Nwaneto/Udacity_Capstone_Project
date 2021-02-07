@@ -46,7 +46,7 @@ Prior to running, AutoML Start first by examining over the info information to g
 
 After the execution, the AutoML Result not just incorporates the best model coming about because of the running of different characterization calculations yet in addition conveys intriguing data to see more why this decision of model was presented in this defense of issue by realizing what highlights are straightforwardly affecting the model and why. 
 
-For this situation, the best model was created utilizing MaxAbsScaler LightGBM Algorithm and give us an Accuracy of 0.9641 
+For this situation, the best model was created utilizing VotingEnsemble with accuracy of 0.97436
 
 This trial can be improved later on by adding more information in it, giving more opportunity to the run, and furthermore attempting profound realizing which can convey a superior outcome.
 
