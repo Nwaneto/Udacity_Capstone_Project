@@ -120,6 +120,8 @@ This analysis can be improved later on by adding more information in it, utilizi
 ## Model Deployment
 After the execution of the two investigations, we select The best model which was from Auto mL run dependent on the measurement worth, and we move then to the sending and the testing of the Webservice.
 
+The autoML model is obviously a better model based off of accuracy; hence the chosen model for deployment. the deployment can be seen as successful and healthy from my experiment below
+
 Instructions:
 
 *  Save and register the best model for the sending, download the conda, set the environment, download the scoring, and set the surmising config and the Aci Web administration config
@@ -130,7 +132,7 @@ Instructions:
 ![Step2_deploy](model-deploy2.PNG "Step2_deploy")
 ![Step2_deploy](model-deploy3.PNG "Step2_deploy")
 
-*  A sample data to query endpoint
+*  A sample input data to query endpoint
 ![Step3_deploy](step3_deploy.png "Step3_deploy")
 
 ## Additional Screenshots
